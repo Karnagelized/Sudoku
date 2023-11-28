@@ -1,0 +1,14 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctime ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo wchar.h wctype.h #<#>
+Dublicate_grid(int** Puzzle) -> int** #<main.cpp>
+Empty_Puzzle : const intSH_MAX=10;const int AREA_MIN=0, AREA_MAX=3;const int LINE_MIN=0, LINE_MAX=3;const int DIFFICLUT=2;const int CELL_MIN=0, CELL_MAX=9;int[][] #<main.cpp>
+SH_MIN : const int #<main.cpp>
+SIZE : const int #<main.cpp>
+Transpose_Puzzle(int** Puzzle) -> void #<main.cpp>
+count_invalid_values : int #<main.cpp>
+delete_cells(int** Puzzle) -> void #<main.cpp>
+generate_grid() -> int** #<main.cpp>
+main() -> int #<main.cpp>
+print_Puzzle(int** Puzzle) -> void #<main.cpp>
+shuffle_coll(int** Puzzle, int count_shuffle) -> void #<main.cpp>
+shuffle_row(int** Puzzle, int count_shuffle) -> void #<main.cpp>

@@ -1,0 +1,63 @@
+# game.h menu.h
+!game.cpp cctype cerrno clocale cstdint cstdio cstdlib ctime ctype.h cwchar cwctype errno.h exception game.h graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h menu.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo wchar.h wctype.h #<#>
+!main.cpp graphics.h keys_n_colors.h menu.h #<#>
+!menu.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception game.h graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h menu.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h windows.h #<#>
+!menu.h graphics.h keys_n_colors.h #<#>
+ struct@Button _type_ #<menu.h>
+Dublicate_grid() -> void #<game.cpp>
+HEIGHT #<main.cpp>
+New_Puzzle : int[][] #<game.cpp>
+P_SIZE : const int #<game.h>
+Puzzle_Unresolved : int[][] #<game.cpp>
+SH_MIN : const int #<game.h>
+Sudoku_Getter(int DIFFICULT) -> void #<game.cpp>
+Transpose_Puzzle() -> void #<game.cpp>
+WIDTH #<main.cpp>
+X_SELECTED : int #<menu.cpp>
+about() -> void #<menu.h>
+background_image : IMAGE* #<menu.cpp>
+backlight_select_cell(bool) -> void #<menu.h>
+button_values : enum #<menu.h>
+buttons : Button[] #<menu.cpp>
+cell_paint(int X_SELECTED, int Y_SELECTED) -> void #<game.cpp>
+cell_paint(int, int) -> void #<game.h>
+check_select_cell(int c, int r) -> bool #<game.cpp>
+check_select_cell(int, int) -> bool #<game.h>
+check_victory() -> int #<game.h>
+close() -> void #<menu.h>
+count_empty_cell : int #<game.cpp>
+create_button(int, int, int, const char*) -> void #<menu.h>
+create_game_button(int, int, int, const char*) -> void #<menu.h>
+delete_cells(int DIFFICULT) -> void #<game.cpp>
+drow_grid() -> void #<game.h>
+game : const intSH_MAX=10;const int AREA_MIN=0, AREA_MAX=3;const int LINE_MIN=0, LINE_MAX=3;const int CELL_MIN=0, CELL_MAX=9;const int X_BEGIN=175, Y_BEGIN=10;const int SIZE_CELL=50;void #<game.h>
+game(int DIFFICULT) -> void #<game.cpp>
+generate_grid() -> void #<game.cpp>
+load : intY_SELECTED=-1;void #<menu.cpp>
+load() -> void #<menu.h>
+lose() -> void #<menu.h>
+lose_image : IMAGE* #<menu.cpp>
+main() -> int #<main.cpp>
+menu() -> void #<menu.h>
+print_Puzzle(int(* Puzzle)[9]) -> void #<game.cpp>
+push_num_Puzzle(int key_pressed, int c, int r) -> void #<game.cpp>
+push_num_Puzzle(int, int, int) -> void #<game.h>
+put_difficult_img() -> void #<menu.h>
+put_game_img() -> void #<menu.h>
+put_menu_img() -> void #<menu.h>
+put_nums() -> void #<game.cpp>
+rules_image : IMAGE* #<menu.cpp>
+select_button() -> int #<menu.h>
+select_difficult_button() -> int #<menu.h>
+select_game_button() -> int #<menu.h>
+shuffle_coll(int count_shuffle) -> void #<game.cpp>
+shuffle_row(int count_shuffle) -> void #<game.cpp>
+start() -> void #<menu.h>
+start_image : IMAGE* #<menu.cpp>
+win() -> void #<menu.h>
+win_image : IMAGE* #<menu.cpp>
+	Button::left : int #<menu.h>
+	Button::top : int #<menu.h>
+	Button::width : int #<menu.h>
+	Button::height : int #<menu.h>
+	Button::image : IMAGE* #<menu.h>
